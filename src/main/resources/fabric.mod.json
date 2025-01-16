@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "screenshot",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Linux Screenshot Fix",
+  "description": "Reintroduces the old (AND WORKING) screenshot to clipboard system.",
   "authors": [
-    "Turnip Labs"
+    "Cookie Cakes",
+		"BestSoft100"
   ],
   "contact": {
     "homepage": "",
