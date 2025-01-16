@@ -19,24 +19,15 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
-    ],
-		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
-		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
-		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
-		]
+			"cookie.screenshot.ScreenshotFix"
+    ]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+		"screenshot.mixins.json"
   ],
 
   "depends": {
-		"minecraft": "^7.2-beta",
+		"minecraft": "*",
     "fabricloader": ">=0.15.5"
   },
   "suggests": {
